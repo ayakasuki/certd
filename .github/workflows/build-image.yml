@@ -70,8 +70,8 @@ jobs:
           push: true
           context: ./packages/ui/
           tags: |
-            Ayakasuki/certd:latest
-            Ayakasuki/certd:${{ steps.get_certd_version.outputs.result }}
+            ayakasuki/certd:latest
+            ayakasuki/certd:${{ steps.get_certd_version.outputs.result }}
             ghcr.io/${{ github.repository }}:latest
             ghcr.io/${{ github.repository }}:${{ steps.get_certd_version.outputs.result }}
 
@@ -82,7 +82,7 @@ jobs:
           push: true
           context: ./packages/ui/
           tags: |
-            Ayakasuki/certd:armv7
-            Ayakasuki/certd:${{ steps.get_certd_version.outputs.result }}-armv7
+            ayakasuki/certd:armv7
+            ayakasuki/certd:${{ steps.get_certd_version.outputs.result }}-armv7
             ghcr.io/${{ github.repository }}:armv7
             ghcr.io/${{ github.repository }}:${{ steps.get_certd_version.outputs.result }}-armv7
