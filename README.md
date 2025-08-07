@@ -1,5 +1,7 @@
 # Certd
-
+> 该分支为自用fork分支，如需使用请按照Docker容器部署以下改安装成我的镜像
+> 该分支支持免费的OneBot v11 通知形式 分支
+--------------
 [English](./README_en.md) | [中文](./README.md)
 
 Certd® 是一个免费的全自动证书管理系统，让你的网站证书永不过期。   
@@ -91,16 +93,13 @@ https://certd.handfree.work/
 5. 【不推荐】[源码方式部署 ](https://certd.docmirror.cn/guide/install/source/)
 
 #### Docker镜像说明：
-* 国内镜像地址:
-  * `registry.cn-shenzhen.aliyuncs.com/handsfree/certd:latest`
-  * `registry.cn-shenzhen.aliyuncs.com/handsfree/certd:armv7`、`[version]-armv7`
 * DockerHub地址：
-  * `https://hub.docker.com/r/greper/certd`
-  * `greper/certd:latest`
-  * `greper/certd:armv7`、`greper/certd:[version]-armv7`
+  * `https://hub.docker.com/r/ayakasuki/certd`
+  * `ayakasuki/certd:latest`
+  * `ayakasuki/certd:armv7`、`greper/certd:[version]-armv7`
 * GitHub Packages地址:
-  * `ghcr.io/certd/certd:latest`
-  * `ghcr.io/certd/certd:armv7`、`ghcr.io/certd/certd:[version]-armv7`
+  * `ghcr.io/ayakasuki/certd:latest`
+  * `ghcr.io/ayakasuki/certd:armv7`、`ghcr.io/ayakasuki/certd:[version]-armv7`
 
 * 镜像构建通过`Actions`自动执行，过程公开透明，请放心使用
   * [点我查看镜像构建日志](https://github.com/certd/certd/actions/workflows/build-image.yml) 
@@ -169,7 +168,7 @@ https://afdian.com/a/greper
 | 证书流水线条数 | 无限制                                   | 无限制                            |
 | 站点证书监控  | 限制1条                                  | 无限制                            |
 | 自动部署插件  | 阿里云CDN、腾讯云、七牛CDN、主机部署、宝塔、1Panel等大部分插件 | 群晖                             |
-| 通知      | 邮件通知、自定义webhook                       | 邮件免配置、企微、钉钉、飞书、anpush、server酱等 |
+| 通知      | 邮件通知、OneBOTv11、自定义webhook                       | 邮件免配置、企微、钉钉、飞书、anpush、server酱等 |
 
 
 ************************
