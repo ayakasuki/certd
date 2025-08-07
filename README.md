@@ -1,5 +1,6 @@
 # Certd
 > 该分支为自用fork分支，如需使用请按照Docker容器部署以下改安装成我的镜像
+
 > 该分支支持免费的OneBot v11 通知形式 分支
 --------------
 [English](./README_en.md) | [中文](./README.md)
@@ -96,7 +97,7 @@ https://certd.handfree.work/
 * DockerHub地址：
   * `https://hub.docker.com/r/ayakasuki/certd`
   * `ayakasuki/certd:latest`
-  * `ayakasuki/certd:armv7`、`greper/certd:[version]-armv7`
+  * `ayakasuki/certd:armv7`、`ayakasuki/certd:[version]-armv7`
 * GitHub Packages地址:
   * `ghcr.io/ayakasuki/certd:latest`
   * `ghcr.io/ayakasuki/certd:armv7`、`ghcr.io/ayakasuki/certd:[version]-armv7`
